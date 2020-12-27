@@ -1,0 +1,149 @@
+﻿.container {
+    /*border-style: solid;
+    border-color: black;
+    border-width: 1px; */
+    padding: 5px;
+}
+
+.navbar {
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+.active {
+    background-color: #f7b32b;
+}
+
+.flex-grid {
+    min-height: 800px;
+    width: 100%;
+    color: #fff;
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "title title title quote quote quote"
+        "box_1 box_1 box_2 box_2 box_3 box_3";
+}
+
+.title-box{
+    margin-left: 25px;
+    text-align: start;
+    grid-area: title;
+}
+
+.quote-box {
+    grid-area: quote;
+    font-family: "Lucida Console";
+    color: #fff;
+    font-size: 20px;
+    /* background: #fcf6b1; */
+    text-align: center;
+    align-self: center;
+}
+
+.box_1 {
+    grid-area: box_1;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.45;
+}
+
+.box_2 {
+    grid-area: box_2;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.45;
+}
+
+.box_3 {
+    grid-area: box_3;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0.45;
+}
+
+.footer {
+    font-size: 12px;
+    color: #fff;
+}
+
+
+@media (max-width: 850px) {
+    .flex-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+body {
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #ccdad1;
+    background: #000;
+    background-image: url("https://cdn.pixabay.com/photo/2013/10/23/09/04/beer-199650_960_720.jpg");
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    font-size: 50px;
+ 
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-radius: 2px;
+    }
+
+li a:hover {
+    background-color: #fcf6b1;
+    color: #000;
+    transition: 0.5s;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-left-buttons {
+    text-align: left;
+    vertical-align: middle;
+}
+
+#nav-right-buttons {
+    text-align: right;
+    vertical-align: middle;
+}
+
+#main-box {
+    /*display: block;*/
+    top: 0;
+    height: 250px;
+}
+
+

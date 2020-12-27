@@ -1,0 +1,369 @@
+[
+  {
+    "datasetid": "open-beer-database@public-us",
+   
+    "recordid": "a9b97dca72104249b4435f63d9c43eefac62bf2b",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "95",
+      "name": "Hop Rocker",
+      "country": "United Kingdom",
+      "cat_id": "8",
+      "brewery_id": "241",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Lager",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Lager",
+      "abv": 5.5,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5706",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "539f8a5366f30aa767472e98f748e28af5c0cb2e",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "5",
+      "name": "The Physics",
+      "country": "United Kingdom",
+      "cat_id": "1",
+      "brewery_id": "241",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "British Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "Extra Special Bitter",
+      "abv": 5.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5705",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "0d282181ab6d25d7f9b1cf66a09c65a0e12d75aa",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "4",
+      "name": "Trashy Blonde",
+      "country": "United Kingdom",
+      "cat_id": "1",
+      "brewery_id": "241",
+      "descript": "A titillating, neurotic, peroxide, punk of a pale ale. Combining attitude, style substance and a little bit of low self esteem for good measure; what would your mother say?\n\n\nYou really should just leave it alone...\n\n\n...but you just cant get the compulsive malt body and gorgeous dirty blonde colour out of your head. The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives preservatives, pasteurization or strings attached.\n\n\nAll wrapped up with the customary Brewdog bite and imaginative twist. This trashy blonde is going to get you into a lot of trouble.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "British Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "Special Bitter or Best Bitter",
+      "abv": 4.0999999046,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5708",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "63197ec4cecff4a502d0f286797f12b2f6b70ec7",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "43",
+      "name": "Tokyo*",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Imperial Stout",
+      "abv": 18.200000763,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5712",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "f8ad616d1d2aa7f1ffab9b8aad5c8ee4e8a5e3a4",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "43",
+      "name": "Tokyo",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "descript": "The irony of existentialism, the parody of being and the inherent contradictions of post-modernism, all so delicately conveyed by the blocky, pixelated arcade action have all been painstakingly recreated in this bottles contents.\n\n\nThis imperial stout is brewed with copious amounts of speciality malts, jasmine and cranberries. After fermentation we then dry-hop this killer stout with a bucketload of our favourite hops before carefully ageing the beer on French toasted oak chips.\n\n\nIt is all about moderation. Everything in moderation, including moderation itself. What logically follows is that you must, from time, have excess. This beer is for those times.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Imperial Stout",
+      "abv": 12.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5711",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "5e88ff536cab86b198e4a4a470a193e8ee5c6485",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "name": "Dogma",
+      "cat_name": "Other Style",
+      "country": "United Kingdom",
+      "cat_id": "11",
+      "brewery_id": "241",
+      "descript": "Dogma is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola nut all blended together with Scottish heather honey. A conspiracy of transcontinental ingredients infused with some devastatingly BrewDog imaginative thinking.\n\n\nThe flavours, intricacies and nuances of this beer are best enjoyed while musing over some obscure 17th Century philosophical meanderings, such as:\n\n\n\"If we disbelieve everything because we cannot certainly know all things we will do much, what as wisely as he who would not use his wings but sit still and perish because he had no wings to fly.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "srm": 0,
+      "style_name": "Herb and Spice Beer",
+      "style_id": "126",
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "id": "5710",
+      "ibu": 0,
+      "abv": 7.8000001907000005
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "7156ce9afe43e23a6834f779de51f150022a9340",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "43",
+      "name": "Paradox Speyside",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Imperial Stout",
+      "abv": 10.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5704",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "c9404e3a46eab4ded8ade7768520b80d4b86110e",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "32",
+      "name": "Hardcore IPA",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "descript": "This little bottle has a grandiloquent story to tell.\n\n\n2,204 malted Maris Otter grains gave all they had to offer the world to provide the robustly delicate toffee malt canvas for the ensuing epic.\n\n\n6 Hop Cones willingly sacrificed themselves in fiery cauldron that is our brew kettle to ensure your mouth is left feeling punished and puckering for more.\n\n\n9,900,000,000 yeast cells frantically fermented their little hearts out as the sugars were magically turned into alcohol in the dark depths of our fermentation tanks.\n\n\nThis explicit ale has more hops and bitterness that any other beer brewed in the UK. This is an extreme beer rollercoaster for freaks, gypsies and international chess superstars.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "Imperial or Double India Pale Ale",
+      "abv": 9.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5707",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "40a6591684b7247d3cfb921fabdabffb6cb471b6",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "77",
+      "name": "77 Lager",
+      "country": "United Kingdom",
+      "cat_id": "7",
+      "brewery_id": "241",
+      "descript": "A Lager that actually tastes of something?\n\n\nYou have to be kidding, right?\n\n\n77 lager is made with 100% malt and whole leaf hops.\n\n\nIt contains no preservatives, additives, cheap substitutes or any other junk.\n\n\nMaybe we are crazy. So what?\n\n\nTaste 77 Lager and we are pretty sure you will agree that the fine line between genius and insanity has just become a little more blurred.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "German Lager",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "German-Style Pilsener",
+      "abv": 4.9000000954,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5709",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "ef0c25e23c5407fef36a8a859867791f70dca68b",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "31",
+      "name": "Punk IPA",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "descript": "This 6% trans-atlantic fusion IPA is light golden in colour with tropical fruits and light caramel on the nose. The palate soon becomes assertive and resinous with the New Zealand hops balanced by the biscuit malt. The finish is aggressive and dry with the hops emerging over the warming alcohol.\n\n\nThis fresh, full flavour natural beer is our tribute to the classic IPAs of yester-year. The post modern twist is the addition of amazing fruity hops giving an explosion of tropical fruit flavours and a sharp bitter finish.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style India Pale Ale",
+      "abv": 6.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5702",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "d3badd7372d2930989e190679623d7fa95376799",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "43",
+      "name": "Rip Tide",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "descript": "A strong, silky smooth imperial stout with a deep, dark ruby appearance. Mocha, bitter chocolate, liquorice and dark cherry flavours prevail, before the balanced, warming and encapsulating finish.\n\n\nA contemporary Scottish take on an age old Russian classic style originally brewed for the Tsars. Our interpretation brings together hops from both sides of the Atlantic, amazing flavoured malts and dark sugars.\n\n\nLike the original BrewDog, this beer would never bite you but would much rather give you a lick on the face. Look Out!\n\n\nServing Suggestion: Enjoy with an air of aristocratic nonchalance",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Imperial Stout",
+      "abv": 8.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5703",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  },
+  {
+    "datasetid": "open-beer-database@public-us",
+    "recordid": "66d24ad9c93c06906990f2477f1e956a352d0905",
+    "fields": {
+      "website": "http://brewdog.com/",
+      "city": "Fraserburgh",
+      "style_id": "43",
+      "name": "Tactical Nuclear Penguin",
+      "country": "United Kingdom",
+      "cat_id": "3",
+      "brewery_id": "241",
+      "descript": "This is the worlds strongest ever beer, ever (yes ever).\n\n\nNo Penguins  were harmed in the making of this beer; some humans did get very, very cold though. It was worth it.\n\n\nThe Antarctic name, inducing schizophrenia, of this \u00c5\u00b8ber-imperial stout originates from the amount of time it spent exposed to extreme cold. This beer was initially double barrel aged for 14 months; maturing in the deep, rich oak of Scottish whisky casks. After this epic maturation the beer was then frozen, then frozen again, then frozen again.\n\n\nThis is an extremely strong beer, it should be enjoyed in small servings and with an air of aristocratic nonchalance. In exactly the same manner that you would enjoy a fine whisky, a Frank Zappa album or a visit from a friendly yet anxious ghost.",
+      "upc": 0,
+      "coordinates": [ 57.683, -2.003 ],
+      "ibu": 0,
+      "cat_name": "North American Ale",
+      "last_mod": "2010-07-22T21:00:00+01:00",
+      "style_name": "American-Style Imperial Stout",
+      "abv": 32.0,
+      "address1": "AB43 8UE",
+      "name_breweries": "BrewDog Ltd",
+      "srm": 0,
+      "id": "5713",
+      "add_user": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [ -2.003, 57.683 ]
+    },
+    "record_timestamp": "2016-09-26T05:21:38.074+01:00"
+  }
+]
