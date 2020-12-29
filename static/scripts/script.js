@@ -1,24 +1,50 @@
 
+fetch('https://gregoryjameswalsh.github.io/BeerTigerr/open-beer-database.json')
+    .then(function (response) {
+        // The JSON should be arriving here sometime and somewhere
+        console.log("SUCCESS!", response);
+       return response.json();
+    })
+    .then(function (data) {
+        var beers = data[0].fields.name;
+        console.log(beers);
+        //appendData(data);
+})
+    .catch(function (err) {
+    console.log("JSON Error!");
+});
 
-
-var json = $.getJSON({ 'url': "open-beer-database.json", 'async': false });
-json - JSON.parse(json.responseText);
-
-function getBeerName() {
-    let beerName = "Punk IPA";
-    return beerName;
+function appendData(data) {
+    var mainContainer = document.getElementById("lotsOfData");
+    for (var i = 0; i < data.length; i++) {
+        var div = document.createElement("div");
+        div.innerHTML = 'Beer Name: ' + data[i].fields.name;
+        
+        mainContainer.appendChild(div);
+    }
 }
 
-function getLastRecord() {
-    /*search json for last record
-     * and return the whole thing */
+
+function fetchJson(myRecordNum) {
+
+    i = myRecordNum;
+    
+    fetch("https://gregoryjameswalsh.github.io/BeerTigerr/open-beer-database.json")
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            var x = data.length;
+            console.log(x);
+            var myBeer = data[myRecordNum].fields.name;
+            console.log(myBeer);
+        })
+        .catch(function (err) {
+            console.log('JSON Error MoFo!');
+        });
 }
 
-function printBeerJson() {
-    console.log(json);  
-}
+fetchJson(5);
+// console.log(json);
 
-
-console.log(getBeerName()); // debug text just to prove that this js file is being called correctly
-
-document.getElementById("beerName").innerHTML = getBeerName(); 
+// document.getElementById("beerName").innerHTML = getBeerName(); 
