@@ -48,5 +48,5 @@ function fetchJson(myRecordNum) {
 fetchJson(5);
 // console.log(json);
 
-document.getElementById("beerName").innerHTML = fetchJson(3); 
+/// document.getElementById("beerName").innerHTML = fetchJson(3); 
 console.log(myBeer);

@@ -18,10 +18,10 @@
 
 .flex-grid {
     min-height: 375px;
-    color: #000;
-    /* border: 5px solid rgb(111,41,97); */
     display: flex;
-    align-items: center;
+   
+    /* align-items: center; */
+    /* border: 1px solid rgb(111,41,97); */
 }
 
 .col-thirds {
@@ -29,14 +29,30 @@
     flex-direction: column;
     flex: 1;
     width: 33.33%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.col-r {
+    
+
+}
+
+.col {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    display: inline;
+
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
-
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
 }
 
 .title-box{
@@ -58,6 +74,8 @@
     margin-left: 15px;
     margin-right: 15px;
     display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
 }
 
 .box_1 {
@@ -87,12 +105,19 @@
     color: #000;
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .logo-thumb {
     max-width: 50px;
     max-height: 50px;
+    border: 1px solid #2F4858;
 }
+
+.radar-graph {
+    max-width: 125px;
+    max-height: 125px;
+    }
 
 
 @media (max-width: 800px) {
@@ -110,7 +135,7 @@
 
 body {
     margin-top: 45px;
-    text-align: center;
+    /*text-align: center; */
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     color: #000;
@@ -125,6 +150,12 @@ h1 {
 
 .leader-text {
     font-size: calc(1.275rem + .3vw);
+    font-weight: 400;
+    color: #495057;
+}
+
+.comment-text {
+    font-size: calc(0.475rem + .3vw);
     font-weight: 400;
     color: #495057;
 }

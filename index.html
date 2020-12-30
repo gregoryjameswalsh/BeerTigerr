@@ -36,25 +36,27 @@
     <div class="flex-grid" style="min-height: 200px">
         
         <!-- Bottom 3, the Recent Beers Boxes-->
-        <div class="col-thirds beer-card grey-box">
-            <div class="row">
+        <div class="col-thirds grey-box">
+            <div class="row leader-text">
                 <!-- Top Row - Brewery | Beer Name | Logo -->
-                <div class="col">Brewdog </div>
-                <div class="col" id="beerName"></div>
-                <img class="col logo-thumb" src="./static/images/brewdog.png" />
+                <div>
+                    <div class="col">Brewdog |</div>
+                    <div class="col" id="beerName">Punk IPA</div>
+                </div>
+                <img class="col logo-thumb" style="margin-right:10px" src="./static/images/brewdog.png" />
             </div>
 
             <div class="row"> <!-- Middle Row - Comment about the beer | Radar Graph -->
-                <div class="col">Well that was a tasty beer, loved every drop and would definitely think about having another one. Bravo to the beer maker and all his kind</div>
-                <img class="col logo-thumb" src="./static/images/radar-chart.png" />
+                <div class="col comment-text">Well that was a tasty beer, loved every drop and would definitely think about having another one. Bravo to the beer maker and all his kind</div>
+                <img class="col radar-graph" style="margin-right:10px" src="./static/images/radar-chart.png" />
             </div>
 
-            <div class="row"> <!-- Bottom Row - Username | Date | Location (maybe container type icon at a later date?) -->
+            <div class="row" style="align-self:baseline"> <!-- Bottom Row - Username | Date | Location (maybe container type icon at a later date?) -->
             gregoryjameswalsh | 30-12-20 | UK
             </div>
         </div>
-        <div class="col-thirds box_2 grey-box" id="lotsOfData">Column 2</div>
-        <div class="col-thirds box_3 grey-box">And another recent beer</div>
+        <div class="col-thirds box_21 grey-box" id="lotsOfData">Column 2</div>
+        <div class="col-thirds box_31 grey-box">And another recent beer</div>
 
     </div>
 
