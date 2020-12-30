@@ -1,45 +1,49 @@
 ﻿.container {
-    /*border-style: solid;
-    border-color: black;
-    border-width: 1px; */
     padding: 5px;
 }
 
 .navbar {
     color: #fff;
-    background-color: #96688e;
+    background-color: #2F4858;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 35px;
     top: 0;
     left: 0;
 }
 
 .active {
-    background-color: #f7b32b;
+    background-color: #00CA6A;
 }
 
 .flex-grid {
-    min-height: 450px;
+    min-height: 375px;
     color: #000;
-    border-color: black;
-    border-width: 1;
+    /* border: 5px solid rgb(111,41,97); */
     display: flex;
+    align-items: center;
 }
 
-.col {
+.col-thirds {
+    display: flex;
+    flex-direction: column;
     flex: 1;
-    width: 32%;
+    width: 33.33%;
 }
 
 .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 
 }
 
 .title-box{
-    margin-left: 25px;
-    text-align: start;
-    grid-area: title;
+    /* margin-left: 25px; */
+    align-self: flex-start;
+    margin: auto;
+    
 }
 
 .quote-box {
@@ -47,29 +51,33 @@
     font-family: "Lucida Console";
     color: #000;
     font-size: 20px;
-    /* background: #fcf6b1; */
-    text-align: center;
-    align-self: center;
+    
+}
+
+.beer-card {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
 }
 
 .box_1 {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
 .box_2 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .box_3 {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .grey-box {
     color: #495057;
-    background-color: grey;
+    background-color: #fff;
     border-radius: 5px 5px 5px 5px;
     }
 
@@ -77,7 +85,13 @@
 .footer {
     font-size: 12px;
     color: #000;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.logo-thumb {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 
@@ -85,19 +99,22 @@
     .flex-grid {
         background-color: blue;
         display: block;
+        
+        
+    }
+    .col-thirds {
         width: 100%;
-        flex: 3;
     }
 }
 
 
 body {
-    margin-top: 60px;
+    margin-top: 45px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     color: #000;
-    background: #fff;
+    background: #F3F1E0;
     /* background-image: url("https://cdn.pixabay.com/photo/2013/10/23/09/04/beer-199650_960_720.jpg"); */
     /* background-repeat: no-repeat; */
 }
@@ -120,17 +137,17 @@ li {
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 5px 5px;
         text-decoration: none;
         border-radius: 2px;
         /*transition: 2s; */
     }
 
-li a:hover {
-    background-color: #fcf6b1;
-    color: #000;
-    transition: 0.5s;
-}
+        li a:hover {
+            background-color: #006883;
+            
+            transition: 0.25s;
+        }
 
 ul {
     list-style-type: none;
@@ -146,12 +163,6 @@ ul {
 #nav-right-buttons {
     text-align: right;
     vertical-align: middle;
-}
-
-#main-box {
-    /*display: block;*/
-    top: 0;
-    height: 250px;
 }
 
 

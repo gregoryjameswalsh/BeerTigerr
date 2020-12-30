@@ -38,6 +38,7 @@ function fetchJson(myRecordNum) {
             console.log(x);
             var myBeer = data[myRecordNum].fields.name;
             console.log(myBeer);
+            return myBeer;
         })
         .catch(function (err) {
             console.log('JSON Error MoFo!');
@@ -47,4 +48,5 @@ function fetchJson(myRecordNum) {
 fetchJson(5);
 // console.log(json);
 
-// document.getElementById("beerName").innerHTML = getBeerName(); 
+document.getElementById("beerName").innerHTML = fetchJson(3); 
+console.log(myBeer);

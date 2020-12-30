@@ -20,7 +20,7 @@
         </div>
     </nav>
 
-    <div class="flex-grid" id="main-box">
+    <div class="flex-grid">
 
         <!-- Top-Left, the Title Box-->
         <div class="title-box">
@@ -31,20 +31,30 @@
         <!-- Top-Right, the Quote Box-->
         <div class="quote-box leader-text">"He who drinks beer, is drinking beer."</div>
         </div>
-    <div class="flex-grid">
+
+
+    <div class="flex-grid" style="min-height: 200px">
+        
         <!-- Bottom 3, the Recent Beers Boxes-->
-        <div class="col box_1 grey-box">
-            <p id="beerName"></p>
-            <p>Brewdog</p>
-            <p>Scotland</p>
-            <p>330ml | Can</p>
-            <p>Malt | Not Malty</p>
-            <p>Hoppy | Not Hoppy</p>
-            <p>Sweet |Sour</p>
-            <p>Light | Dark</p>
+        <div class="col-thirds beer-card grey-box">
+            <div class="row">
+                <!-- Top Row - Brewery | Beer Name | Logo -->
+                <div class="col">Brewdog </div>
+                <div class="col" id="beerName"></div>
+                <img class="col logo-thumb" src="./static/images/brewdog.png" />
+            </div>
+
+            <div class="row"> <!-- Middle Row - Comment about the beer | Radar Graph -->
+                <div class="col">Well that was a tasty beer, loved every drop and would definitely think about having another one. Bravo to the beer maker and all his kind</div>
+                <img class="col logo-thumb" src="./static/images/radar-chart.png" />
+            </div>
+
+            <div class="row"> <!-- Bottom Row - Username | Date | Location (maybe container type icon at a later date?) -->
+            gregoryjameswalsh | 30-12-20 | UK
+            </div>
         </div>
-        <div class="col box_2 grey-box" id="lotsOfData">Column 2</div>
-        <div class="col box_3 grey-box">And another recent beer</div>
+        <div class="col-thirds box_2 grey-box" id="lotsOfData">Column 2</div>
+        <div class="col-thirds box_3 grey-box">And another recent beer</div>
 
     </div>
 
